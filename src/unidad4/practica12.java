@@ -56,6 +56,7 @@ public class practica12 {
             }
         }else{
             System.out.println("Ese peso no se puede enviar");
+            System.out.println("Ingrese nuevamente");
         }
     }
 }

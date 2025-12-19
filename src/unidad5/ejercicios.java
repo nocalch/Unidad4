@@ -41,4 +41,57 @@ public class ejercicios {
         System.out.println("El total es: "+total);
     }*/
     
+    //For
+    /*public static void main(String[] args) {
+        Scanner leer= new Scanner(System.in);
+        int sumat =0;
+        int num;
+        for(int i=1; i<=10;i++){
+            System.out.println("ingrese el numero "+i);
+            num = leer.nextInt();
+            
+            sumat = sumat+num;
+            
+        }
+        System.out.println("la suma da como resultado = "+sumat);
+    }*/
+    
+    //Practica promedio
+    /*public static void main(String[] args) {
+        System.out.println("Ingrese cuantos alumnos tiene");
+        Scanner leer=new Scanner(System.in);
+        
+        int contador;
+        contador = leer.nextInt();
+        int paso =0;
+        int edad;
+        int sumat =0;
+        while(paso<contador){
+            System.out.println("Ingresa la edad del niño"+(paso+1));
+            edad = leer.nextInt();
+            
+            sumat = sumat+edad;
+            paso++;
+        }
+        System.out.println("el resultado es:"+(sumat/paso));
+    }*/
+    
+    //Edad Promedio
+    /*public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingresa la estatura 1");
+        float estatura = leer.nextFloat();
+        float sumatoria = estatura;
+        int contador = 1;
+        while(estatura>0){
+            System.out.println("Ingrese la estatura "+(1+contador));
+            estatura= leer.nextFloat();
+            sumatoria = sumatoria+estatura;
+            contador++;
+        }
+        System.out.println("el contador es"+(contador-1));
+        System.out.println("El resultado es:"+(sumatoria/(contador-1)));
+    }*/
+    
+    //
 }
